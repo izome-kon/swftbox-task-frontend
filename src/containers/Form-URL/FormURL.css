@@ -1,0 +1,29 @@
+.form-control-fancy {
+  background: none;
+  border: 1px solid #e5e5e5;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  color: #181818;
+  font-size: 16px;
+  font-weight: 500;
+  height: auto;
+  padding: 16px 10px;
+  width:100%;
+  box-shadow: 0 1px 2px #e9ecef;
+}
+.mt-5{
+  margin-top: 45px;
+}
+.mb-1{
+  margin-bottom: 0.25rem!important;
+}
+.justify-content-between {
+  justify-content: space-between!important;
+}
+
+.d-inline-flex {
+  display: inline-flex!important;
+}
+.flex-fill {
+  flex: 1 1 auto!important;
+}

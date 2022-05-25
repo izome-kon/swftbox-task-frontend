@@ -1,0 +1,9 @@
+.red-color{
+  color:var(--blue-color)
+}
+.feature{
+  font-size:18px
+}
+.title{
+  text-transform: uppercase;
+}

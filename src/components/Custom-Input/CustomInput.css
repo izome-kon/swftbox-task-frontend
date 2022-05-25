@@ -1,0 +1,24 @@
+.label-fancy{
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 120.5%;
+  margin-bottom: 15px;
+  
+}
+.a {
+  fill: #252525;
+}
+.b {
+  fill: #fec900;
+  fill-rule: evenodd;
+}
+
+input:focus {
+  border: 1px solid #e5e5e5;
+  background-color: #fff;
+  box-shadow: none;
+}
+.px-2{
+  font-size: 18px;
+  color: gray
+}

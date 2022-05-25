@@ -1,0 +1,27 @@
+.btn-outline-t-teal {
+  border-color:var(--blue-color);
+  color: var(--blue-color);
+  text-decoration: none
+}
+.btn-outline-t-teal:hover{
+  border-color:var(--blue-color);
+  background-color:var(--blue-color);
+  color: #fff;
+}
+.btn-t-teal {
+  background-color: var(--blue-color);
+  border-color: var(--blue-color);
+  color: #fff;
+  text-decoration: none
+}
+.w-100{
+  width: 100%;
+}
+@media screen and (max-width: 800px) {
+  .mt-sm-2{
+    margin-top: 0.5rem;
+  }
+  .mr-sm-0{
+    margin-right: 0;
+  }
+}

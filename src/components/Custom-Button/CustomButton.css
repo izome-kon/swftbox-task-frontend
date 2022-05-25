@@ -1,0 +1,90 @@
+
+.btn:not(:disabled){
+  cursor: pointer;
+}
+
+.btn-t-green.focus, .btn-t-green:focus, .btn-t-green:hover {
+  background-color: #eebb01;
+  border-color: #eebb01;
+  color: #fff;
+}
+.btn:hover {
+  color: #212529;
+  text-decoration: none;
+}
+.btn-xl {
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 15px 30px;
+}
+.btn {
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  color: #212529;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 0.375rem 0.75rem;
+  text-align: center;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+}
+[type=button], [type=reset], [type=submit], button {
+  -webkit-appearance: button;
+}
+button, select {
+  text-transform: none;
+}
+button, input {
+  overflow: visible;
+}
+button, input, optgroup, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0;
+}
+button {
+  border-radius: 0;
+}
+.btn-t-gold {
+  background-color: #fec900;
+  border-color: #fec900;
+  color: rgb(20, 20, 20);
+}
+.btn-t-gold:hover{
+  background-color: #daab03;
+  border-color: #daab03;
+}
+.btn-t-gold[disabled]{
+  background-color: #ffe78f;
+  border-color: #ffe78f;
+  color: rgb(71, 71, 71);
+}
+.btn-block {
+  display: block;
+  width: 100%;
+}
+.btn-xl {
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 15px 30px;
+}
+.btn-outline-t-gold {
+  border-color: var(--blue);
+  color: var(--red-color);
+}
+
+.btn-outline-t-gold:hover {
+  background-color:var(--red-color);
+  border-color: var(--red-color);
+  color: rgb(255, 255, 255);
+}

@@ -1,0 +1,29 @@
+.text-center{
+  text-align: center
+}
+.qrcode-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100;
+  opacity: 1;
+  transition-duration: .3s;
+}
+.qrcode-col{
+  display: flex;
+  flex-direction: column;
+}
+.qrcode-section-hidden{
+  height: 0;
+  display: none;
+  transition-duration: .3s;
+}
+@media screen and (max-width: 800px) {
+  .d-inline-flex {
+    display: flex!important;
+    flex-direction: column
+  }
+  .mt-sm-3{
+    margin-top: 0.5rem;
+  }
+}

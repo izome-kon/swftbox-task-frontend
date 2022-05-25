@@ -1,13 +1,104 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+:root {
+  --primary-color: #ff6700;
+  --text-white: #fff;
+  --red-color:#e7266f;
+  --blue-color:#14b8e5;
+  --background-color:radial-gradient(circle, #2e2e2e 0%, #313231 70%, #1d1e1d 100%)
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+h1, h2, h3, h4{
+     text-transform: none;
+    line-height: 1.2em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: lowercase;
+    line-height: 1.5em;
+    font-size: 2rem;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  font-weight:400;
+}
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.app__container{
+  width: 100%;
+  padding-right: .75rem;
+  padding-left:.75rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.app__card{
+  position: relative;
+display: flex;
+flex-direction: column;
+min-width: 0;
+word-wrap: break-word;
+background-color: #fff;
+background-clip: border-box;
+border-radius: .25rem;
+transition-duration: .3s;
+}
+
+.app__row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.app__col-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.app__col-6{
+  flex: 0 0 100%;
+  max-width: 50%;
+}
+.app__text_center{
+  text-align: center
+}
+.app__mr-2{
+  margin-right: 0.5rem;
+}
+.app__mt-2{
+  margin-top: 0.5rem;
+}
+.app__mt-3{
+  margin-top: 1rem;
+}
+.app__mb-3{
+  margin-bottom: 1rem;
+}
+.app__mb-2{
+  margin-bottom: 0.5rem;
+}
+.app__ml-2{
+  margin-left: 0.5rem;
+}
+
+@media screen and (max-width: 1280px) {
+  .weborgin__container {
+    padding: 0 5%
+  }
+ 
+}
+@media screen and (max-width: 800px) {
+  .mr-sm-0{
+    margin-right: 0;
+  } 
+  .ml-sm-0{
+    margin-left: 0;
+  }
 }
